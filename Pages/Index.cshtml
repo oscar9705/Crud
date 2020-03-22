@@ -1,0 +1,34 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>Index</h1>
+<table style="height:108px;" width="473">
+    <tbody>
+        <tr>
+            <td style="width: 228px; text-align:center;">
+                <img src="~/images/PaisIcon.png" alt="" width="151" height="151" />
+            </td>
+            <td style="width: 229px; text-align:center;">
+                <img src="~/images/DeptoIcon.png" alt="" width="151" height="151" />
+            </td>
+            <td style="width: 229px; text-align:center;">
+                <img src="~/images/CiudadIcon.png" alt="" width="151" height="151" />
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 228px; text-align:center;">
+                <a asp-page="./PaisPage/Index">CRUD PAIS</a>
+            </td>
+            <td style="width: 229px; text-align:center;">
+                <a asp-page="./DepartamentoPage/Index" >CRUD DEPARTAMENTO</a>
+            </td>
+            <td style="width: 228px; text-align:center;">
+                <a >CRUD CIUDAD</a>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
